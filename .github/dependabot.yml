@@ -6,6 +6,26 @@
 version: 2
 updates:
   - package-ecosystem: "maven" # See documentation for possible values
-    directory: "/" # Location of package manifests
+    directory: "/hgmanager" # Location of package manifests
+    schedule:
+      interval: "weekly"
+  - package-ecosystem: "maven" # See documentation for possible values
+    directory: "/hgmanager/entity" # Location of package manifests
+    schedule:
+      interval: "weekly"
+  - package-ecosystem: "maven" # See documentation for possible values
+    directory: "/hgmanager/core" # Location of package manifests
+    schedule:
+      interval: "weekly"
+  - package-ecosystem: "maven" # See documentation for possible values
+    directory: "/hgmanager/dao" # Location of package manifests
+    schedule:
+      interval: "weekly"
+  - package-ecosystem: "maven" # See documentation for possible values
+    directory: "/hgmanager/view" # Location of package manifests
+    schedule:
+      interval: "weekly"
+  - package-ecosystem: "maven" # See documentation for possible values
+    directory: "/hgmanager/view/web" # Location of package manifests
     schedule:
       interval: "weekly"
