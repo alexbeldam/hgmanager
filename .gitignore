@@ -54,3 +54,6 @@ replay_pid*
 !*maven-wrapper.jar
 !*src/main/**/target/
 !*src/test/**/target/
+
+### Dia ###
+*.dia~
